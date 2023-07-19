@@ -1,8 +1,20 @@
-/* Add the selector for the row class and set display to flex */
-.row {
-  display: flex;
+/* Grid section */
+.container {
+  display: flex; /* Add display flex */
 }
 
-/* No need for float: left inside [class*='col-'] since we are using flexbox */
+/* Grid item */
+.col {
+  padding: 1rem;
+  border: 1px solid black;
+}
 
-/* The rest of your CSS styles... */
+/* Task-specific CSS for display flex */
+.row {
+  display: flex; /* Add display flex */
+}
+
+/* Remove float: left inside [class*='col-'] */
+[class*='col-'] {
+  float: none; /* Updated to remove float */
+}

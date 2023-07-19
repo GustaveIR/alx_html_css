@@ -1,2 +1,8 @@
+/* Add the selector for the row class and set display to flex */
 .row {
   display: flex;
+}
+
+/* No need for float: left inside [class*='col-'] since we are using flexbox */
+
+/* The rest of your CSS styles... */

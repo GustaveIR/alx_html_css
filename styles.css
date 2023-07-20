@@ -1,36 +1,20 @@
-body, main {
+/* Grid section */
+.container {
   display: flex;
 }
 
-body {
-  flex-direction: column;
+/* Grid item */
+.col {
+  padding: 1rem;
+  border: 1px solid black;
 }
 
-main {
-  flex-direction: row;
-  flex: auto;
+/* Task-specific CSS for display flex */
+.row {
+  display: flex;
 }
 
-article {
-  flex: 2;
-}
-
-aside {
-  flex: 1;
-}
-
-article, aside {
-  overflow-y: auto;
-}
-
-/* Adjust viewport for smartphones */
-@media (max-width: 600px) {
-  body {
-    width: 100%;
-  }
-}
-
-/* Style for the logo */
-.logo {
-  font-size: 24px; /* Adjust the size of the logo */
+/* Remove float: left inside [class*='col-'] */
+[class*='col-'] {
+  float: none;
 }

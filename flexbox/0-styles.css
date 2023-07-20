@@ -1,6 +1,6 @@
 /* Grid section */
 .container {
-  display: flex; /* Add display flex */
+  display: flex;
 }
 
 /* Grid item */
@@ -11,10 +11,10 @@
 
 /* Task-specific CSS for display flex */
 .row {
-  display: flex; /* Add display flex */
+  display: flex;
 }
 
 /* Remove float: left inside [class*='col-'] */
 [class*='col-'] {
-  float: none; /* Updated to remove float */
+  float: none;
 }

@@ -581,3 +581,7 @@ a:active {
   font-size: 10rem;
   z-index: -1;
 }
+/* Section Latest news */
+.section-latest-news .row {
+  flex-direction: row-reverse; /* Fix: Set flex direction to row-reverse */
+}

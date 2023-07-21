@@ -287,19 +287,23 @@ a:active {
 
 /* Grid */
 
+/* Update .col-1-3 selector */
 .col-1-3 {
-  width: calc((100% / 3) - 2rem); /* Update the width */
-}
-.col-1-2 {
-  width: calc((100% / 2) - 2rem); /* Update the width */
+  width: calccalc((100% / 3) - 2rem) ; /* Ensure the width is set to calc((100% / 3) - 2rem) */
 }
 
+/* Update .col-1-2 selector */
+.col-1-2 {
+  calc((100% / 2) ; /* Ensure the width is set to calc((100% / 2) - 2rem) */
+}
+
+/* Update [class*='col-'] */
 /* Remove the padding declaration */
 [class*='col-'] {
-  padding: 0; /* Remove the padding */
   margin: 1rem; /* Set the margin to 1rem */
 }
 
+/* Update ul.row declaration */
 ul.row {
   margin: -1rem; /* Replace the current margin with -1rem */
 }

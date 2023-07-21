@@ -579,3 +579,16 @@ a:active {
 .section-latest-news .row {
   flex-direction: row-reverse; /* Fix: Set flex direction to row-reverse */
 }
+/* GLOBAL */
+
+/* Reset / Normalize */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* ... (previously provided CSS code) ... */
+
+/* Section Latest news */
+/* ... (styles for the Latest news section) ... */
+
+/* CARD */
+/* ... (styles for the CARD section) ... */
+
+/* ... (rest of the CSS code) ... */

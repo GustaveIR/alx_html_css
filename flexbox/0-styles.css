@@ -8,6 +8,20 @@
   margin: 0 -15px;
 }
 
+/* Remove the row::after declaration */
+.row::after {
+  /* Remove this entire block to delete the row::after declaration */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Remove the float: left inside [class*='col-'] */
+[class*='col-'] {
+  /* Remove this line to remove the float property */
+  float: none;
+}
+
 /* Reset / Normalize */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {

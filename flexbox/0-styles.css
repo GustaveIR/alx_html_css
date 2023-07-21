@@ -1,20 +1,3 @@
-/* Grid section */
-.container {
+.section-latest-news .row {
   display: flex;
-}
-
-/* Grid item */
-.col {
-  padding: 1rem;
-  border: 1px solid black;
-}
-
-/* Task-specific CSS for display flex */
-.row {
-  display: flex;
-}
-
-/* Remove float: left inside [class*='col-'] */
-[class*='col-'] {
-  float: none;
-}
+  flex-direction: row-reverse;

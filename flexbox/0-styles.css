@@ -1,3 +1,12 @@
-.section-latest-news .row {
+.container {
+  /* Add display: flex; to turn the container into a flex container */
   display: flex;
-  flex-direction: row-reverse;
+  /* Add flex-direction: column; to stack the child elements vertically */
+  flex-direction: column;
+  /* Add align-items: center; to horizontally center the child elements */
+  align-items: center;
+  /* Add justify-content: center; to vertically center the child elements */
+  justify-content: center;
+  /* Add height: 100vh; to make the container take the full viewport height */
+  height: 100vh;
+}

@@ -285,16 +285,16 @@ a:active {
   margin-right: auto;
 }
 
-//* Grid */
+/* Grid */
 
 /* Update .col-1-3 selector */
 .col-1-3 {
-  width: calc((100% / 3) - 2rem); /* Update the width */
+  width: calc((100% / 3) - 2rem); /* Ensure the width is set to calc((100% / 3) - 2rem) */
 }
 
 /* Update .col-1-2 selector */
 .col-1-2 {
-  width: calc((100% / 2) - 2rem); /* Update the width */
+  width: calc((100% / 2) - 2rem); /* Ensure the width is set to calc((100% / 2) - 2rem) */
 }
 
 /* Update [class*='col-'] */

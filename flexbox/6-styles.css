@@ -223,7 +223,7 @@ ul.row {
 
 /* Add the missing selector */
 .nav .nav-item + .nav-item {
-  margin-left: var(--nav-item-margin);
+  margin-left: 2rem; /* Set the correct margin value here */
 }
 
 /* ... (other CSS rules) ... */

@@ -183,19 +183,45 @@ ul.row {
 }
 
 /* Navbar */
-nav {
+.nav {
   display: flex; /* Flexify the navbar */
 }
 
-/* Remove the display declaration for .nav .nav-item */
 .nav .nav-item {
-  /* Remove the 'display' property */
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  margin: var(--nav-item-margin);
 }
 
-/* Target .nav-item + .nav-item inside nav class and move the margin declaration */
-nav .nav-item + .nav-item {
-  margin: 0 0 0 2rem; /* Change the margin declaration */
+.nav .nav-link {
+  display: block;
+  padding: 0.5rem 0;
+  position: relative;
 }
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
+  text-decoration: none;
+}
+
+.nav .nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+
+.nav .nav-item:hover .nav-link::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
+
 
 /* ... (other CSS rules) ... */
 

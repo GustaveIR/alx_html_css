@@ -64,7 +64,8 @@ html {
   --nav-item-font-size: var(--font-size-medium);
   --nav-item-letter-spacing: 0.04rem;
   --nav-item-display: inline-block;
-  --nav-item-margin: 0 2rem 0 0; /* Default value for margin */
+  --nav-item-margin: 0 2rem 0 0;
+  --nav-item-link-hover: var(--color-white);
 
   /* BUTTON */
   --button-display: inline-block;
@@ -182,19 +183,29 @@ ul.row {
 }
 
 /* Navbar */
-nav.nav {
+nav {
   display: flex; /* Flexify the navbar */
 }
 
 /* Remove the display declaration for .nav .nav-item */
 .nav .nav-item {
-  /* Remove the display declaration */
+  /* Remove the 'display' property */
 }
 
 /* Target .nav-item + .nav-item inside nav class and move the margin declaration */
-nav.nav .nav-item + .nav-item {
+nav .nav-item + .nav-item {
   margin: 0 0 0 2rem; /* Change the margin declaration */
 }
+
+/* ... (other CSS rules) ... */
+
+/* Variables */
+:root {
+  /* ... (other variables) ... */
+  --nav-item-margin: 0 0 0 2rem; /* Change the value for margin */
+  /* ... (other variables) ... */
+}
+
 
 /* Header section */
 .header {

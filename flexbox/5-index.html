@@ -10,19 +10,27 @@
     <link rel='stylesheet' href='0-styles.css'>
   </head>
   <body>
-    <header class="header">
-      <div class="header-container">
-        <div class="header-logo">
-          <h1>Logo</h1>
+    <header class="header" data-section-theme="dark">
+      <div class="container">
+        <!-- Wrapping the header-logo and navbar-menu with header-container -->
+        <div class="header-container">
+          <div class="header-logo">
+            <a href="#">
+              <img src="images/logo-white.png" alt="Techium logo" width="160" height="40">
+            </a>
+          </div>
+          <nav class="navbar-menu">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <!-- Other navigation items... -->
+            </ul>
+          </nav>
         </div>
-        <nav class="navbar">
-          <ul class="navbar-menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
       </div>
     </header>
     <!-- Main -->

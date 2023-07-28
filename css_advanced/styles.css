@@ -288,8 +288,8 @@
     }
   }
   
-  /* Play icon styles */
-  .play-icon {
+ /* Play icon styles */
+.play-icon {
     /* Add styles for the play icon, you may need to include Font Awesome or any other icon library */
     position: absolute;
     top: 50%;

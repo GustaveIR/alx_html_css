@@ -550,20 +550,15 @@ header {
     background-color: white;
   }
   
- /* CSS for the Smileschool2020 div */
-.Smileschool2020 {
-    left: 672px;
-    top: 195px;
-    position: absolute;
-    opacity: 0.35;
+  .Smileschool {
     color: white;
-    font-size: 12px;
-    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    font-family: Coiny;
     font-weight: 400;
     word-wrap: break-word;
   }
   
-  /* CSS for the SocialIcons div */
+  
   .SocialIcons {
     width: 130px;
     height: 30px;
@@ -572,7 +567,6 @@ header {
     position: absolute;
   }
   
-  /* CSS for the Instagram div */
   .Instagram {
     width: 30px;
     height: 30px;
@@ -581,7 +575,6 @@ header {
     position: absolute;
   }
   
-  /* CSS for the CombinedShape images */
   .CombinedShape {
     width: 30px;
     height: 30px;
@@ -590,16 +583,6 @@ header {
     position: absolute;
   }
   
-  /* CSS for the second CombinedShape image */
-  .CombinedShape:nth-child(2) {
-    width: 13.12px;
-    height: 13.11px;
-    left: 8.44px;
-    top: 8.44px;
-    position: absolute;
-  }
-  
-  /* CSS for the Shape div */
   .Shape {
     width: 5.33px;
     height: 5.33px;

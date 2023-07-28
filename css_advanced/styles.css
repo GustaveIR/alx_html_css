@@ -492,53 +492,6 @@ header {
       flex: 0 0 50%; /* Set both left and right columns to be half of the container width */
     }
   }
-  .Part5Footer {
-    width: 1440px;
-    height: 249px;
-    position: relative;
-  }
-  
-  .Background {
-    width: 1440px;
-    height: 249px;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: #071629;
-  }
-  
-  .Logo {
-    padding-top: 0.02px;
-    padding-bottom: 52px;
-    padding-left: 59px;
-    left: 165px;
-    top: 95px;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    gap: 18.02px;
-  }
-  
-  .Smileschool {
-    color: white;
-    font-size: 18px;
-    font-family: 'Coiny';
-    font-weight: 400;
-    word-wrap: break-word;
-  }
-  
-  .Smileschool2020 {
-    left: 672px;
-    top: 195px;
-    position: absolute;
-    opacity: 0.35;
-    color: white;
-    font-size: 12px;
-    font-family: 'Source Sans Pro';
-    font-weight: 400;
-    word-wrap: break-word;
-  }
-  
   .SocialIcons {
     width: 130px;
     height: 30px;
@@ -547,28 +500,43 @@ header {
     position: absolute;
   }
   
-  .Instagram {
+  .Instagram,
+  .Facebook,
+  .Twitter {
     width: 30px;
     height: 30px;
-    left: 100px;
-    top: 0;
     position: absolute;
   }
   
   .CombinedShape {
     width: 30px;
     height: 30px;
-    left: 0;
-    top: 0;
     position: absolute;
   }
   
   .Shape {
     width: 5.33px;
     height: 5.33px;
-    left: 12.33px;
-    top: 12.33px;
     position: absolute;
     background: white;
   }
   
+  /* Style for the smile shape */
+  .Shape::after {
+    content: '';
+    position: absolute;
+    width: 5.33px;
+    height: 5.33px;
+    top: 12.33px;
+    left: 12.33px;
+    background: white;
+  }
+  .Shape::before {
+    content: '';
+    position: absolute;
+    width: 5.33px;
+    height: 5.33px;
+    top: 0;
+    left: 0;
+    background: white;
+  }

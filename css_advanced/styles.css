@@ -321,3 +321,130 @@
     font-size: 24px;
     color: #C271FF;
   }
+  .membership-section {
+    position: relative;
+    width: 1440px;
+    height: 502px;
+  }
+  
+  .background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1440px;
+    height: 502px;
+    background: #071629;
+  }
+  
+  .heading {
+    position: absolute;
+    top: 70px;
+    left: 617px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    color: #C271FF;
+  }
+  
+  .highlighted {
+    color: #C271FF;
+  }
+  
+  .normal {
+    color: white;
+    font-weight: 300;
+  }
+  
+  .register-btn {
+    position: absolute;
+    top: 406px;
+    left: 639px;
+    width: 162px;
+    height: 44px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
+  }
+  
+  .btn-background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 162px;
+    height: 44px;
+    background: #C271FF;
+    border-radius: 22px;
+  }
+  
+  .btn-text {
+    position: absolute;
+    left: 21.50px;
+    top: 13px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 44px;
+  }
+  
+  .membership-card {
+    position: absolute;
+    top: 168px;
+    width: 257px;
+    height: 153px;
+    background: #071629;
+  }
+  
+  .card-info {
+    position: absolute;
+    top: 62px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  
+  .card-icon {
+    position: absolute;
+    top: 0;
+    left: 106.71px;
+    width: 43.67px;
+    height: 35.35px;
+    transform: rotate(-7deg);
+    transform-origin: 0 0;
+  }
+  
+  .icon-part {
+    position: absolute;
+    background: #C271FF;
+  }
+  
+  .icon-part:nth-child(1) {
+    width: 9.44px;
+    height: 14.22px;
+    left: 5.28px;
+    top: 0;
+  }
+  
+  .icon-part:nth-child(2) {
+    width: 9.44px;
+    height: 14.22px;
+    left: 27.74px;
+    top: 0;
+  }
+  
+  .icon-part:nth-child(3) {
+    width: 42.69px;
+    height: 10.64px;
+    left: 0;
+    top: 24.79px;
+  }

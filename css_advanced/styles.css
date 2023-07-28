@@ -133,3 +133,7 @@ header {
     line-height: 24px;
     word-wrap: break-word;
   }
+  .image-section {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    margin-top: 50px;

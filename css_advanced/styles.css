@@ -25,7 +25,7 @@
   }
   
   .nav div:hover {
-    color: white;
+    color: rgb(251, 124, 124);
   }
   
   .logo {
@@ -42,7 +42,7 @@
     position: absolute;
     left: 4.40px;
     top: 0px;
-    background-color: white;
+    background-color: rgb(98, 47, 47);
   }
   
   .bar2 {
@@ -51,7 +51,7 @@
     position: absolute;
     left: 23.12px;
     top: 0px;
-    background-color: white;
+    background-color: rgb(175, 24, 24);
   }
   
   .bar3 {
@@ -60,7 +60,7 @@
     position: absolute;
     left: 0px;
     top: 20.66px;
-    background-color: white;
+    background-color: rgb(61, 7, 7);
     transform: rotate(-7deg);
     transform-origin: 0 0;
   }

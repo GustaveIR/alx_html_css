@@ -3,48 +3,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-/* Global styles */
-body {
+  }
+  
+  /* Global styles */
+  body {
     font-family: "Source Sans Pro", sans-serif;
     background-color: #071629;
     color: white;
-}
-
-/* Header styles */
-header {
+  }
+  
+  /* Header styles */
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
     background-color: #071629;
-}
-
-.header-logo img {
+  }
+  
+  .header-logo img {
     width: 100px; /* Adjust the width of the logo */
-}
-
-.header-nav {
+  }
+  
+  .header-nav {
     display: flex;
     gap: 30px;
-}
-
-.header-nav a {
+  }
+  
+  .header-nav a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-}
-
-/* First section styles */
-.first-section {
+  }
+  
+  /* First section styles */
+  .first-section {
     position: relative;
     width: 100%;
     height: 100vh;
-}
-
-.first-section .background-image {
+  }
+  
+  .first-section .background-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -52,31 +52,31 @@ header {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-}
-
-.first-section .section-content {
+  }
+  
+  .first-section .section-content {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.first-section h1 {
+  }
+  
+  .first-section h1 {
     font-size: 120px;
     font-weight: 700;
     font-family: "Source Sans Pro", sans-serif;
     margin-bottom: 20px;
-}
-
-.first-section .tagline {
+  }
+  
+  .first-section .tagline {
     font-size: 16px;
     font-weight: 700;
     font-family: "Source Sans Pro", sans-serif;
     margin-bottom: 30px;
-}
-
-.first-section .call-to-action {
+  }
+  
+  .first-section .call-to-action {
     display: inline-block;
     padding: 15px 30px;
     background-color: #c271ff;
@@ -85,31 +85,30 @@ header {
     font-weight: 600;
     text-decoration: none;
     border-radius: 22px;
-}
-
-/* Image section styles */
-.image-section {
-    width: 1009px;
-    height: 237px;
-    position: relative;
+  }
+  
+  /* Image section styles */
+  .image-section {
+    width: 100%;
     display: flex;
-    gap: 40px; /* Adjust the value to increase/decrease the space between images */
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 50px;
-}
-
-.image-card {
+  }
+  
+  .image-card {
     width: 150px;
     height: 237px;
+    margin: 10px; /* Add spacing between the image cards */
     position: relative;
-}
-
-.image-card img {
+  }
+  
+  .image-card img {
     width: 150px;
     height: 150px;
-}
-
-.image-details {
+  }
+  
+  .image-details {
     width: 150px;
     position: absolute;
     bottom: 0;
@@ -117,19 +116,41 @@ header {
     padding: 10px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-.image-details .image-name {
+  }
+  
+  .image-details .image-name {
     font-size: 18px;
     font-weight: 900;
     line-height: 27px;
     word-wrap: break-word;
-}
-
-.image-details .image-description {
+  }
+  
+  .image-details .image-description {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
-}
+  }
+  
+  /* Additional styles for the center text section */
+  .text-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text-center span {
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .text-center .sub-text {
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    word-wrap: break-word;
+    color: white;
+  }
+  

@@ -93,7 +93,7 @@ header {
     height: 237px;
     position: relative;
     display: flex;
-    gap: 20px;
+    gap: 40px; /* Adjust the value to increase/decrease the space between images */
     justify-content: center;
     margin-top: 50px;
 }

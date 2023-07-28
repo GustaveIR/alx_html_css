@@ -19,7 +19,12 @@
     align-items: center;
     padding: 20px 50px;
     background-color: #071629;
+    background-image: url('object.png');
+    background-size: cover;
+    height: 300px; /* Adjust the height as needed */
+    position: relative;
   }
+  
   
   
   .header-logo img {

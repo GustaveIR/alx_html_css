@@ -437,7 +437,7 @@ header {
   .faq-container {
     width: 920px;
     background-color: #ffffff; /* Set background to white */
-    color: #071629;
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;

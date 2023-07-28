@@ -89,23 +89,27 @@ header {
 
 /* Image section styles */
 .image-section {
+    width: 1009px;
+    height: 237px;
+    position: relative;
     display: flex;
     gap: 20px;
     justify-content: center;
     margin-top: 50px;
-}
-
-.image-card {
+  }
+  
+  .image-card {
     width: 150px;
     height: 237px;
-}
-
-.image-card img {
+    position: relative;
+  }
+  
+  .image-card img {
     width: 150px;
     height: 150px;
-}
-
-.image-details {
+  }
+  
+  .image-details {
     width: 150px;
     position: absolute;
     bottom: 0;
@@ -113,19 +117,19 @@ header {
     padding: 10px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
-}
-
-.image-details .image-name {
+  }
+  
+  .image-details .image-name {
     font-size: 18px;
     font-weight: 900;
     line-height: 27px;
     word-wrap: break-word;
-}
-
-.image-details .image-description {
+  }
+  
+  .image-details .image-description {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
-}
+  }

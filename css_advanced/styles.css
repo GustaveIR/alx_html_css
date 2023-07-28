@@ -285,6 +285,8 @@
       width: 100%; /* Display one video per row on smaller screens */
     }
   }
+  
+  /* Play icon styles */
   .play-icon {
     /* Add styles for the play icon, you may need to include Font Awesome or any other icon library */
     position: absolute;
@@ -294,6 +296,8 @@
     color: #C271FF;
     font-size: 60px;
   }
+  
+  /* Star rating styles */
   .fa-star {
     font-size: 14px;
     color: #D8D8D8;
@@ -303,6 +307,8 @@
   .fa-star.filled {
     color: #C271FF;
   }
+  
+  /* Smile icon styles */
   .smile-icon {
     /* Add styles for the smile icon */
     text-align: center;

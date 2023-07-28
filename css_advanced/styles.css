@@ -1,90 +1,137 @@
-/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #071629;
+}
 
-/* The first div */
-div[style*="width: 1440px; height: 3718px;"] {
+.container {
     width: 1440px;
-    height: 3718px;
-    position: relative;
+    margin: 0 auto;
     background: white;
-  }
-  
-  div[style*="width: 1440px; height: 249px; left: 0px; top: 3469px;"] {
-    width: 1440px;
-    height: 249px;
-    left: 0px;
-    top: 3469px;
-    position: absolute;
-  }
-  
-  /* ... Continue adding styles for the rest of the div elements ... */
-  
-  /* The second div */
-  div[style*="width: 920px; height: 707px; left: 249px; top: 2678px;"] {
-    width: 920px;
-    height: 707px;
-    left: 249px;
-    top: 2678px;
-    position: absolute;
-  }
-  
-  /* ... Continue adding styles for the rest of the div elements ... */
-  
-  /* Additional styles for specific elements */
-  span[style*="color: #C271FF; font-size: 32px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word"] {
-    color: #C271FF;
-    font-size: 32px;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    word-wrap: break-word;
-  }
-  
-  span[style*="color: white; font-size: 32px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word"] {
+    position: relative;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.logo-text {
     color: white;
-    font-size: 32px;
-    font-family: Source Sans Pro;
-    font-weight: 700;
-    word-wrap: break-word;
-  }
-  
-  span[style*="color: white; font-size: 32px; font-family: Source Sans Pro; font-weight: 300; word-wrap: break-word"] {
-    color: white;
-    font-size: 32px;
-    font-family: Source Sans Pro;
-    font-weight: 300;
-    word-wrap: break-word;
-  }
-  
-  /* Additional styles for specific elements */
-  div[style*="width: 162px; height: 44px; left: 639px; top: 406px; position: absolute; box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50)"] {
-    width: 162px;
-    height: 44px;
-    left: 639px;
-    top: 406px;
-    position: absolute;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
-  }
-  
-  /* Additional styles for specific elements */
-  div[style*="width: 162px; height: 44px; left: 0px; top: 0px; position: absolute; background: #C271FF; border-radius: 22px"] {
-    width: 162px;
-    height: 44px;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    background: #C271FF;
-    border-radius: 22px;
-  }
-  
-  /* Additional styles for specific elements */
-  div[style*="left: 21.50px; top: 13px; position: absolute; text-align: center; color: white; font-size: 14px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word"] {
-    left: 21.50px;
-    top: 13px;
-    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.faq h1 {
     text-align: center;
+    color: #071629;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.question {
+    margin-bottom: 30px;
+}
+
+.question h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.question p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.50);
+}
+
+.membership {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.membership h2 {
+    color: #071629;
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 162px;
+    height: 44px;
+    background: #C271FF;
     color: white;
     font-size: 14px;
-    font-family: Source Sans Pro;
     font-weight: 600;
-    word-wrap: break-word;
-  }
-  
+    border: none;
+    border-radius: 22px;
+    margin-bottom: 20px;
+}
+
+.tutorial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.tutorial-image img {
+    width: 255px;
+    height: 335px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
+}
+
+.tutorial-details {
+    margin-left: 20px;
+}
+
+.tutorial h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.tutorial p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.50);
+}
+
+.tutorial-author {
+    display: flex;
+    align-items: center;
+}
+
+.tutorial-author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tutorial-author span {
+    margin-left: 10px;
+}
+
+.tutorial-duration {
+    font-size: 14px;
+    font-weight: 600;
+    color: #C271FF;
+}

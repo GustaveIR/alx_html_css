@@ -1,67 +1,90 @@
-.container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .nav {
-    width: 234px;
-    height: 15px;
+/* styles.css */
+
+/* The first div */
+div[style*="width: 1440px; height: 3718px;"] {
+    width: 1440px;
+    height: 3718px;
     position: relative;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 52px;
-    display: inline-flex;
+    background: white;
   }
   
-  .nav div {
-    color: black;
-    font-size: 12px;
+  div[style*="width: 1440px; height: 249px; left: 0px; top: 3469px;"] {
+    width: 1440px;
+    height: 249px;
+    left: 0px;
+    top: 3469px;
+    position: absolute;
+  }
+  
+  /* ... Continue adding styles for the rest of the div elements ... */
+  
+  /* The second div */
+  div[style*="width: 920px; height: 707px; left: 249px; top: 2678px;"] {
+    width: 920px;
+    height: 707px;
+    left: 249px;
+    top: 2678px;
+    position: absolute;
+  }
+  
+  /* ... Continue adding styles for the rest of the div elements ... */
+  
+  /* Additional styles for specific elements */
+  span[style*="color: #C271FF; font-size: 32px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word"] {
+    color: #C271FF;
+    font-size: 32px;
     font-family: Source Sans Pro;
     font-weight: 700;
     word-wrap: break-word;
   }
   
-  .nav div:hover {
-    color: rgb(251, 124, 124);
+  span[style*="color: white; font-size: 32px; font-family: Source Sans Pro; font-weight: 700; word-wrap: break-word"] {
+    color: white;
+    font-size: 32px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    word-wrap: break-word;
   }
   
-  .logo {
-    width: 111.83px;
-    height: 12.58px;
-    position: absolute;
-    left: 55.18px;
-    top: 6.52px;
+  span[style*="color: white; font-size: 32px; font-family: Source Sans Pro; font-weight: 300; word-wrap: break-word"] {
+    color: white;
+    font-size: 32px;
+    font-family: Source Sans Pro;
+    font-weight: 300;
+    word-wrap: break-word;
   }
   
-  .bar1 {
-    width: 7.87px;
-    height: 11.85px;
+  /* Additional styles for specific elements */
+  div[style*="width: 162px; height: 44px; left: 639px; top: 406px; position: absolute; box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50)"] {
+    width: 162px;
+    height: 44px;
+    left: 639px;
+    top: 406px;
     position: absolute;
-    left: 4.40px;
-    top: 0px;
-    background-color: rgb(98, 47, 47);
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
   }
   
-  .bar2 {
-    width: 7.87px;
-    height: 11.85px;
-    position: absolute;
-    left: 23.12px;
-    top: 0px;
-    background-color: rgb(175, 24, 24);
-  }
-  
-  .bar3 {
-    width: 35.57px;
-    height: 8.87px;
-    position: absolute;
+  /* Additional styles for specific elements */
+  div[style*="width: 162px; height: 44px; left: 0px; top: 0px; position: absolute; background: #C271FF; border-radius: 22px"] {
+    width: 162px;
+    height: 44px;
     left: 0px;
-    top: 20.66px;
-    background-color: rgb(61, 7, 7);
-    transform: rotate(-7deg);
-    transform-origin: 0 0;
+    top: 0px;
+    position: absolute;
+    background: #C271FF;
+    border-radius: 22px;
+  }
+  
+  /* Additional styles for specific elements */
+  div[style*="left: 21.50px; top: 13px; position: absolute; text-align: center; color: white; font-size: 14px; font-family: Source Sans Pro; font-weight: 600; word-wrap: break-word"] {
+    left: 21.50px;
+    top: 13px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Source Sans Pro;
+    font-weight: 600;
+    word-wrap: break-word;
   }
   

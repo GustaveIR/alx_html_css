@@ -328,54 +328,102 @@ header {
   
   /* ... */
   
-  /* Additional styles for the membership cards */
-  .membership-card {
-    width: 257px;
-    height: 153px;
-    margin: 20px;
+ /* Styles for the "Free membership" text */
+.membership-text {
+    position: absolute;
+    left: 617px;
+    top: 70px;
+    text-align: center;
+    color: #C271FF;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  
+  /* Styles for the "REGISTER FOR FREE" button */
+  .register-button {
+    width: 162px;
+    height: 44px;
+    position: absolute;
+    left: 639px;
+    top: 406px;
+    border-radius: 22px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
+  }
+  
+  .register-button-inner {
+    width: 100%;
+    height: 100%;
+    background: #C271FF;
+    border-radius: 22px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #071629;
-    border-radius: 10px;
   }
   
-  .card-title {
+  .register-button-text {
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Styles for the content boxes */
+  .content-box {
+    width: 257px;
+    height: 153px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    background: transparent; /* Remove any background */
+  }
+  
+  .content-box-title {
+    width: 100%;
+    top: 62px;
     font-size: 18px;
     font-weight: 600;
-    color: white;
-    margin-bottom: 10px;
   }
   
-  .card-description {
-    font-size: 14px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
+  .box-icon {
+    width: 43.67px;
+    height: 35.35px;
+    position: absolute;
+    left: 106.71px;
+    top: 0.03px;
   }
   
-  .card-icon {
-    display: flex;
-    justify-content: center;
+  .box-icon-item {
+    position: absolute;
+    background: #C271FF;
   }
   
-  .icon-part {
-    width: 12px;
-    height: 12px;
-    background: #c271ff;
-    margin: 2px;
-    border-radius: 50%;
+  /* Position the content boxes */
+  .content-box:nth-child(1) {
+    left: 164px;
+    top: 168px;
   }
   
-  /* Responsive styles for membership cards */
-  @media screen and (max-width: 768px) {
-    .membership-card {
-      width: 100%;
-      max-width: 257px; /* Add max-width to avoid excessive stretching on small screens */
-    }
+  .content-box:nth-child(2) {
+    left: 448px;
+    top: 168px;
   }
   
+  .content-box:nth-child(3) {
+    left: 733px;
+    top: 168px;
+  }
+  
+  .content-box:nth-child(4) {
+    left: 1019px;
+    top: 168px;
+  }
   /* Additional styles for the background */
   .background {
     width: 100%;

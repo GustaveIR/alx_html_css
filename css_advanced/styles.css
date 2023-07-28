@@ -172,6 +172,11 @@
     border-radius: 50%;
   }
   
+  .quote-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
   .quote-content {
     color: white;
     font-size: 22px;

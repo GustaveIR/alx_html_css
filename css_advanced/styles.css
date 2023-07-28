@@ -1,0 +1,21 @@
+header {
+    background-color: #F2F2F2;
+    height: 100px;
+    /* Add other styles for the header */
+  }
+  
+  section {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 400px;
+    /* Add other styles for the first section */
+  }
+  header {
+    background-image: url("path/to/header-image.jpg");
+    /* Add other styles for the header */
+  }
+  
+  section {
+    background-image: url("path/to/section-image.jpg");
+    /* Add other styles for the first section */
+  }

@@ -321,10 +321,13 @@
     font-size: 24px;
     color: #C271FF;
   }
-  .membership-section {
-    width: 1440px;
-    height: 502px;
-    position: relative;
+ /* Additional styles for the membership section */
+.membership-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
   }
   
   .background {
@@ -334,142 +337,95 @@
     top: 0;
     position: absolute;
     background: #071629;
+    z-index: -1;
   }
   
   .heading {
-    left: 617px;
-    top: 70px;
-    position: absolute;
+    width: 100%;
     text-align: center;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: #c271ff;
+    margin-bottom: 20px;
   }
   
   .highlighted {
-    color: #C271FF;
-    font-size: 32px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 700;
-    word-wrap: break-word;
+    color: #c271ff;
   }
   
   .normal {
     color: white;
-    font-size: 32px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
-    word-wrap: break-word;
   }
   
   .register-btn {
-    width: 162px;
-    height: 44px;
-    left: 639px;
-    top: 406px;
-    position: absolute;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.50);
+    margin-top: 20px;
   }
   
   .btn-background {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
+    width: 162px;
+    height: 44px;
     position: absolute;
-    background: #C271FF;
+    background: #c271ff;
     border-radius: 22px;
+    cursor: pointer;
   }
   
   .btn-text {
-    left: 21.50px;
-    top: 13px;
-    position: absolute;
-    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 600;
-    word-wrap: break-word;
   }
   
   .membership-card {
     width: 257px;
     height: 153px;
-    position: absolute;
-  }
-  
-  .card-info {
-    width: 212px;
-    left: 22.50px;
-    top: 101px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    line-height: 26px;
-    word-wrap: break-word;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #071629;
+    border-radius: 10px;
   }
   
   .card-title {
-    width: 256px;
-    left: 0.50px;
-    top: 62px;
-    position: absolute;
-    text-align: center;
-    color: white;
     font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 600;
-    line-height: 26px;
-    word-wrap: break-word;
+    color: white;
+    margin-bottom: 10px;
   }
   
   .card-description {
-    width: 215px;
-    left: 21px;
-    top: 101px;
-    position: absolute;
-    text-align: center;
-    color: white;
     font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
-    line-height: 26px;
-    word-wrap: break-word;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
   }
   
   .card-icon {
-    width: 43.67px;
-    height: 35.35px;
-    left: 106.71px;
-    top: 0.03px;
-    position: absolute;
+    display: flex;
+    justify-content: center;
   }
   
   .icon-part {
-    position: absolute;
-    background: #C271FF;
+    width: 12px;
+    height: 12px;
+    background: #c271ff;
+    margin: 2px;
+    border-radius: 50%;
   }
   
-  .icon-part:nth-child(1) {
-    width: 9.44px;
-    height: 14.22px;
-    left: 5.28px;
-    top: 0;
+  /* Responsive styles for membership cards */
+  @media screen and (max-width: 768px) {
+    .membership-card {
+      width: 100%;
+    }
   }
   
-  .icon-part:nth-child(2) {
-    width: 9.44px;
-    height: 14.22px;
-    left: 27.74px;
-    top: 0;
-  }
-  
-  .icon-part:nth-child(3) {
-    width: 42.69px;
-    height: 10.64px;
-    left: 0;
-    top: 24.79px;
-    transform: rotate(-7deg);
-    transform-origin: 0 0;
-  }

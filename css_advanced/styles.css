@@ -2,7 +2,11 @@
 * * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Optional: Set the overall background color */
   }
   
   /* Global styles */

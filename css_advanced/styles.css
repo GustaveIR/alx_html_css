@@ -437,13 +437,13 @@ header {
   .faq-container {
     width: 920px;
     height: 707px;
-    position: relative;
     background-color: white;
     color: #071629;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px; /* Add padding to create space between the container and content */
   }
   
   .faq-heading {
@@ -459,8 +459,8 @@ header {
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
+    max-width: 350px; /* Add max-width to limit the width of the items */
   }
-  
   .faq-question {
     font-size: 16px;
     font-family: "Source Sans Pro";

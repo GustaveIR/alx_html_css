@@ -436,11 +436,9 @@ header {
   
   .faq-container {
     width: 920px;
-    height: 707px;
     background-color: #ffffff; /* Set background to white */
     color: #071629;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px; /* Add padding to create space between the container and content */
@@ -455,11 +453,21 @@ header {
     text-align: center; /* Center the FAQ heading */
   }
   
-  .faq-item {
+  .left-column, .right-column {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Center the questions and answers horizontally */
     gap: 30px;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  
+  .right-column {
+    flex: 1;
+  }
+  
+  .faq-item {
     max-width: 350px; /* Add max-width to limit the width of the items */
   }
   
@@ -468,7 +476,6 @@ header {
     font-family: "Source Sans Pro";
     font-weight: 700;
     word-wrap: break-word;
-    text-align: center; /* Center the questions */
   }
   
   .faq-answer {
@@ -477,7 +484,12 @@ header {
     font-weight: 400;
     line-height: 24px;
     word-wrap: break-word;
-    text-align: center; /* Center the answers */
   }
   
+  /* Adjusting the width of the left and right columns to fit the container */
+  @media (min-width: 700px) {
+    .left-column, .right-column {
+      flex: 0 0 50%; /* Set both left and right columns to be half of the container width */
+    }
+  }
   

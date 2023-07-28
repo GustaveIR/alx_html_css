@@ -14,11 +14,7 @@
   
   /* Header styles */
   header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-    background-color: #071629;
+    background-color: transparent;
     background-image: url('object.png');
     background-size: cover;
     height: 300px; /* Adjust the height as needed */

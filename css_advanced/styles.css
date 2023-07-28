@@ -439,6 +439,7 @@ header {
     background-color: #ffffff; /* Set background to white */
     color: #071629;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px; /* Add padding to create space between the container and content */
@@ -453,18 +454,16 @@ header {
     text-align: center; /* Center the FAQ heading */
   }
   
+  .faq-columns {
+    display: flex;
+    justify-content: center; /* Center the columns horizontally */
+    gap: 50px; /* Add gap between the left and right columns */
+  }
+  
   .left-column, .right-column {
     display: flex;
     flex-direction: column;
     gap: 30px;
-  }
-  
-  .left-column {
-    flex: 1;
-  }
-  
-  .right-column {
-    flex: 1;
   }
   
   .faq-item {
@@ -488,8 +487,12 @@ header {
   
   /* Adjusting the width of the left and right columns to fit the container */
   @media (min-width: 700px) {
+    .faq-columns {
+      flex-wrap: wrap; /* Allow columns to wrap on larger screens */
+    }
+  
     .left-column, .right-column {
-      flex: 0 0 50%; /* Set both left and right columns to be half of the container width */
+      flex: 0 0 calc(50% - 25px); /* Set both left and right columns to be half of the container width with a 25px gap between them */
     }
   }
   

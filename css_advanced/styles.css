@@ -504,30 +504,54 @@ header {
     left: 0;
     top: 0;
     position: absolute;
-    background: #071629;
+    background-color: #071629;
   }
   
   .Logo {
     padding-top: 0.02px;
-    padding-bottom: 52px;
-    padding-left: 59px;
+    padding-bottom: 0.52px;
+    padding-left: 0.59px;
     left: 165px;
     top: 95px;
     position: absolute;
-    display: flex;
+    justify-content: center;
     align-items: center;
     gap: 18.02px;
+    display: inline-flex;
   }
   
-  .Smileschool {
-    color: white;
-    font-size: 18px;
-    font-family: 'Coiny';
-    font-weight: 400;
-    word-wrap: break-word;
+  .Smile {
+    width: 36.39px;
+    height: 29.46px;
+    position: relative;
   }
   
-  .Smileschool2020 {
+  .Path {
+    width: 7.87px;
+    height: 11.85px;
+    left: 4.40px;
+    top: 0;
+    position: absolute;
+    background-color: white;
+  }
+  
+  .Path:nth-child(2) {
+    left: 23.12px;
+  }
+  
+  .Path:nth-child(3) {
+    width: 35.57px;
+    height: 8.87px;
+    left: 0;
+    top: 20.66px;
+    position: absolute;
+    transform: rotate(-7deg);
+    transform-origin: 0 0;
+    background-color: white;
+  }
+  
+ /* CSS for the Smileschool2020 div */
+.Smileschool2020 {
     left: 672px;
     top: 195px;
     position: absolute;
@@ -539,6 +563,7 @@ header {
     word-wrap: break-word;
   }
   
+  /* CSS for the SocialIcons div */
   .SocialIcons {
     width: 130px;
     height: 30px;
@@ -547,6 +572,7 @@ header {
     position: absolute;
   }
   
+  /* CSS for the Instagram div */
   .Instagram {
     width: 30px;
     height: 30px;
@@ -555,6 +581,7 @@ header {
     position: absolute;
   }
   
+  /* CSS for the CombinedShape images */
   .CombinedShape {
     width: 30px;
     height: 30px;
@@ -563,6 +590,16 @@ header {
     position: absolute;
   }
   
+  /* CSS for the second CombinedShape image */
+  .CombinedShape:nth-child(2) {
+    width: 13.12px;
+    height: 13.11px;
+    left: 8.44px;
+    top: 8.44px;
+    position: absolute;
+  }
+  
+  /* CSS for the Shape div */
   .Shape {
     width: 5.33px;
     height: 5.33px;

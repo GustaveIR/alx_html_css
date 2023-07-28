@@ -1,125 +1,89 @@
-body {
+/* Reset default margin and padding for all elements */
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #071629;
-    background-color: #ffffff; /* Change background color to white */
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.header {
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: #071629;
+    color: white;
+  }
+  
+  /* Header styles */
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
+    padding: 20px 50px;
+    background-color: #071629;
+  }
+  
+  .header-logo img {
+    width: 100px; /* Adjust the width of the logo */
+  }
+  
+  .header-nav {
     display: flex;
-    align-items: center;
-}
-
-.logo img {
-    width: 30px;
-    height: 30px;
-}
-
-.logo-text {
-    color: #071629;
-    font-size: 18px;
-    font-weight: 400;
-    margin-left: 10px;
-}
-
-.faq h1 {
-    text-align: center;
-    color: #071629;
-    font-size: 60px;
-    font-weight: 300;
-    margin-bottom: 30px;
-}
-
-.question {
-    margin-bottom: 30px;
-}
-
-.question h2 {
+    gap: 30px;
+  }
+  
+  .header-nav a {
+    color: white;
+    text-decoration: none;
     font-size: 16px;
     font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.question p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgba(7, 22, 41, 0.50);
-}
-
-.membership {
-    margin-top: 100px;
+  }
+  
+  /* First section styles */
+  .first-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .first-section .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .first-section .section-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-}
-
-.membership h2 {
-    color: #071629;
-    font-size: 32px;
-    font-weight: 300;
-    margin-bottom: 10px;
-}
-
-button {
-    width: 162px;
-    height: 44px;
-    background: #C271FF;
+  }
+  
+  .first-section h1 {
+    font-size: 120px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .first-section .tagline {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Source Sans Pro", sans-serif;
+    margin-bottom: 30px;
+  }
+  
+  .first-section .call-to-action {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #c271ff;
     color: white;
     font-size: 14px;
     font-weight: 600;
-    border: none;
+    text-decoration: none;
     border-radius: 22px;
-    margin-bottom: 20px;
-}
-
-.tutorial {
-    display: flex;
-    align-items: center;
-    margin-bottom: 30px;
-}
-
-.tutorial-image img {
-    width: 255px;
-    height: 335px;
-    border-radius: 5px;
-    box-shadow: 0px 2px 4px rgba(7, 22, 41, 0.18);
-}
-
-.tutorial-details {
-    margin-left: 20px;
-}
-
-.tutorial h3 {
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.tutorial p {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgba(7, 22, 41, 0.50);
-}
-
-.tutorial-author {
-    display: flex;
-    align-items: center;
-}
-
-.tutorial-author img {
-    width: 30px;
-    height: 30px;
-    border-radius: 
+  }
+  

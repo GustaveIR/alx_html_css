@@ -317,67 +317,18 @@ header {
     color: #C271FF;
   }
  /* Additional styles for the membership section */
-.membership-section {
+ .membership-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 50px;
+    position: relative; /* Add this to enable relative positioning for the background */
   }
   
-  .background {
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;
-    background: #071629;
-    z-index: -1;
-  }
+  /* ... */
   
-  .heading {
-    width: 100%;
-    text-align: center;
-    font-size: 32px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
-    color: #c271ff;
-    margin-bottom: 20px;
-  }
-  
-  .highlighted {
-    color: #c271ff;
-  }
-  
-  .normal {
-    color: white;
-  }
-  
-  .register-btn {
-    margin-top: 20px;
-  }
-  
-  .btn-background {
-    width: 162px;
-    height: 44px;
-    position: absolute;
-    background: #c271ff;
-    border-radius: 22px;
-    cursor: pointer;
-  }
-  
-  .btn-text {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 14px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-  }
-  
+  /* Additional styles for the membership cards */
   .membership-card {
     width: 257px;
     height: 153px;
@@ -421,6 +372,65 @@ header {
   @media screen and (max-width: 768px) {
     .membership-card {
       width: 100%;
+      max-width: 257px; /* Add max-width to avoid excessive stretching on small screens */
+    }
+  }
+  
+  /* Additional styles for the background */
+  .background {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #071629;
+    z-index: -1;
+  }
+  
+  .heading {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 700;
+    color: #c271ff;
+    margin-bottom: 20px;
+  }
+  
+  .highlighted {
+    color: #c271ff;
+  }
+  
+  .normal {
+    color: white;
+  }
+  
+  .register-btn {
+    margin-top: 20px;
+  }
+  
+  .btn-background {
+    width: 162px;
+    height: 44px;
+    background: #c271ff;
+    border-radius: 22px;
+    cursor: pointer;
+    display: flex; /* Add display flex to center the text */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-text {
+    color: white;
+    font-size: 14px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Add a max-width to the register button to prevent excessive stretching on small screens */
+  @media screen and (max-width: 768px) {
+    .btn-background {
+      max-width: 162px;
     }
   }
   

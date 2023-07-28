@@ -285,3 +285,31 @@
       width: 100%; /* Display one video per row on smaller screens */
     }
   }
+  .play-icon {
+    /* Add styles for the play icon, you may need to include Font Awesome or any other icon library */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #C271FF;
+    font-size: 60px;
+  }
+  .fa-star {
+    font-size: 14px;
+    color: #D8D8D8;
+    margin-right: 3px;
+  }
+  
+  .fa-star.filled {
+    color: #C271FF;
+  }
+  .smile-icon {
+    /* Add styles for the smile icon */
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .fa-smile {
+    font-size: 24px;
+    color: #C271FF;
+  }

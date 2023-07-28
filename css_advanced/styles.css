@@ -1,5 +1,5 @@
 /* Reset default margin and padding for all elements */
-* {
+* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -20,6 +20,7 @@
     padding: 20px 50px;
     background-color: #071629;
   }
+  
   
   .header-logo img {
     width: 100px; /* Adjust the width of the logo */
@@ -206,10 +207,8 @@
     word-wrap: break-word;
   }
  /* Videos list section styles */
-.videos-section {
-    width: 100%;
-    max-width: 1228px;
-    margin: 0 auto;
+ .videos-section {
+    background-color: white; /* White background */
     padding: 40px;
   }
   
@@ -218,6 +217,9 @@
     font-weight: 300;
     color: #071629;
     text-align: center;
+    background-color: white; /* White background */
+    padding: 10px;
+    margin-bottom: 30px; /* Add some margin between the title and video items */
   }
   
   .videos-list {
